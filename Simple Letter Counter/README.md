@@ -33,5 +33,5 @@ x -> 0
 y -> 0  
 z -> 0  
 
-&ast;The input must be contained within single or double quotes in MATLAB.  
+&ast;The input must be contained within single or double quotes in MATLAB. In PHP, input may be omitted and the sentence be stored in a variable instead.  
 &ast;&ast;When made in MATLAB, the programme must also plot a graph of the frequency table.
