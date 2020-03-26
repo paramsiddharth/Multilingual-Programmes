@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple Letter Counter</title>
+        <style>
+        <!--
+        body {
+          font-family: monospace;
+        }
+        -->
+        </style>
+    </head>
+    <body>
+        <script>
+          var x = prompt('Enter a sentence: '),
+          f = {};
+          if (x==null) x="";
+          x = x.toLowerCase();
+          for (let i = 0; i < x.length; i++) {
+            let y = x.charCodeAt(i);
+            if (y>96 && y<123) {
+              if (y in f)
+               f[y]++;
+              else
+               f[y]=1;
+            }
+          }
+          for (let k=97; k<123; k++) {
+            if (k in f)
+              document.write(String.fromCharCode(k)+' -> '+f[k]+'<br/>');
+            else
+              document.write(String.fromCharCode(k)+' -> 0<br/>')
+          }
+        </script>
+    </body>
+</html>
