@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Factorial using Recursion</title>
+        <style>
+        <!--
+        body {
+            font-family: monospace;
+        };
+        -->
+        </style>
+    </head>
+    <body>
+        <script>
+        const fact = (x) => {
+            return (x<2)?1:x*fact(x-1);
+        }
+
+        p = prompt('Enter a number: ');
+        document.write(fact(p));
+        </script>
+    </body>
+</html>
