@@ -7,6 +7,6 @@ long long int fact(long long int x) {
 int main() {
     long long int y;
     scanf("%lld",&y);
-    printf("%lld",fact(y));
+    printf("%lld\n",fact(y));
     return 0;
 }

@@ -8,6 +8,6 @@ long long int fact(long long int x) {
 int main() {
     long long int y;
     cin >> y;
-    cout << fact(y);
+    cout << fact(y) << endl;
     return 0;
 }
