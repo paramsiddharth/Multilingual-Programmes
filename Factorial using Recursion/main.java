@@ -1,7 +1,6 @@
 import java.util.*;
 
-public class main
-{
+public class main {
     public static long fact(long x) {
         return (x<2)?1:x*fact(x-1);
     }
